@@ -49,6 +49,5 @@ btn.addEventListener("click", (e) => {
   e.preventDefault();
 
   // ACA HAGO USO DE OPERADOR TERNARIO
-
   checkbox.checked ? guardar("localStorage") : guardar("sessionStorage");
 });
